@@ -15,7 +15,7 @@ gem 'simple_form'
 gem 'thin'
 group :development do
   gem 'better_errors'
-  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
+  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'hub', :require=>nil
