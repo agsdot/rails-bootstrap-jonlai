@@ -13,6 +13,8 @@ gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'thin'
+gem 'google_drive'
+gem 'activerecord-tableless'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
